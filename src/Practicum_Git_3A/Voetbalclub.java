@@ -1,7 +1,7 @@
 
-//Practicum 2B
+//Practicum 3A GroepsOpdracht
 
-package com.company;
+package Practicum_Git_3A;
 
 public class Voetbalclub {
     private String naam;
@@ -11,7 +11,12 @@ public class Voetbalclub {
 
     public Voetbalclub(String naam) {
         this.naam = naam;
+
+        if (naam == null || naam.equals("")){
+            this.naam = "FC";
+        }
     }
+
 
     public int aantalPunten() {
         int aantalGen = aantalGewonnen *3;
