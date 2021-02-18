@@ -31,8 +31,8 @@ public class Voetbalclub {
 
 
     public static void main(String[] args) {
-        com.company.Voetbalclub ajx = new com.company.Voetbalclub("Ajax      ");
-        com.company.Voetbalclub feij = new com.company.Voetbalclub("Feijenoord");
+        Practicum_Git_3A.Voetbalclub ajx = new Practicum_Git_3A.Voetbalclub("Ajax      ");
+        Practicum_Git_3A.Voetbalclub feij = new Practicum_Git_3A.Voetbalclub("Feijenoord");
 
         feij.verwerkResultaat('w');
         feij.verwerkResultaat('w');
