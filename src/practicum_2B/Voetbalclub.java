@@ -8,6 +8,10 @@ public class Voetbalclub {
 
     public Voetbalclub(String naam) {
         this.naam = naam;
+
+        if (this.naam == null || naam.equals("")){
+            this.naam = "FC";
+        }
     }
 
     public int aantalPunten() {
