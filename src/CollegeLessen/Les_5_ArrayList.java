@@ -2,7 +2,7 @@ package CollegeLessen;
 
 import java.util.ArrayList;
 
-public class Les_5_ArryList {
+public class Les_5_ArrayList {
     public static void main(String[] args) {
 
 
@@ -15,6 +15,7 @@ public class Les_5_ArryList {
 
         for (Double cijfer : cijferlijst) {
             System.out.print(cijfer + "  ");
+            System.out.println("sdsfskldflsdfjl");
 
 
         }
