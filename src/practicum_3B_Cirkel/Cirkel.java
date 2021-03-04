@@ -28,9 +28,9 @@ de gegeven methode (main) hierboven weghaalt. Heeft dit tot gevolg dat:
 •	de applicatie tijdens uitvoeren stopt
 •	de applicatie gewoon alles uitvoert maar de uitvoer verandert
 
-Het antwoord is dat de applicatie tijdens het uitvoeren stopt want je krijgt een error te zien
-en de error laat zien dat radius groter moet zijn dan 0.
-Het is geen goed idee om het try-catch blok weg te halen want het pakt deze error op en gaat
-verder met het uitvoeren van de applicatie.
+Als ik het try-catch blok in de main methode weghaalt dan kan de applicatie helemaal niet uitgevoerd
+worden en dat komt omdat ik in Cirkel.java aangeef dat Radius groter moet zijn dan 0 en nu als de
+radius groter is dan 0 in de main methode dan krijg ik IllegalArgumentException error. Het try-catch
+blok zorgt ervoor dat hij deze error oppakt en laat dit dan zien als een bericht(message).
 
  */

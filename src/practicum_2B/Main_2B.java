@@ -5,6 +5,7 @@ public class Main_2B {
         Voetbalclub ajx = new Voetbalclub("Ajax      ");
         Voetbalclub feij = new Voetbalclub("Feijenoord");
 
+
         feij.verwerkResultaat('w');
         feij.verwerkResultaat('w');
         feij.verwerkResultaat('w');

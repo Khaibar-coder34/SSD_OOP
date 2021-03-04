@@ -12,6 +12,7 @@ public class AutoHuur {
 
     public AutoHuur(){
 
+
     }
 
     public double totaalPrijsVanGehuurdAuto(){      //Bedrag berekenen voor totale prijs van een gehuurde auto
