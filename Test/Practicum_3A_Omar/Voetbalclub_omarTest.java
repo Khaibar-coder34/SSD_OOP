@@ -82,4 +82,17 @@ class Voetbalclub_omarTest {
         assertEquals("naamVoetbalclub 1 0 1 0 1", test_3.toString());
     }
 
+    @Test
+    void testNaamFeijnoord(){
+        test_1 = new Voetbalclub("Feijnoord");
+        assertEquals("Feijnoord 0 0 0 0 0", test_1.toString());
+    }
+
+    @Test
+    void testNaamAjax(){
+        test_2 = new Voetbalclub("Ajax");
+        assertEquals("Ajax 0 0 0 0 0", test_2.toString());
+    }
+
+
 }

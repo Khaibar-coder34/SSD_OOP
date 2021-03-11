@@ -6,6 +6,7 @@ public class AutoHuur {
     private Auto gehuurdeAuto = new Auto();
 
 
+
     public AutoHuur(int aantalDagen) {
         this.aantalDagen = aantalDagen;
     }
