@@ -28,7 +28,7 @@ public class Main_11 {
 
         else {
             System.out.println("Geef een naam aan dit bestand");
-            bestandLokatie = Path.of(scanner.nextLine());
+            bestandLokatie = Path.of(scanner.nextLine());//
 
             if (!String.valueOf(bestandLokatie).endsWith(".txt")){
                 System.out.println("Dit bestand is geen text bestand");
